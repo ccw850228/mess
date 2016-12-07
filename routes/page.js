@@ -32,7 +32,7 @@ exports.index = function(req, res) {
 exports.post = function(req, res) {
     //console.log(req.body);
     //res.render('pages/success');
-    mc.connect('mongodb://process.env.db_user:process.env.pwd@ds115738.mlab.com:15738/messageboard', (err,db) => {
+    mc.connect('mongodb://zitim:999TIMTI@ds115738.mlab.com:15738/messageboard', (err,db) => {
         var collection = db.collection('test2');
 
         var Today = new Date();
@@ -57,7 +57,7 @@ exports.post = function(req, res) {
 //刪除
 exports.delete = function(req, res) {
     
-    mc.connect('mongodb://process.env.db_user:process.env.pwd@ds115738.mlab.com:15738/messageboard', (err,db) => {
+    mc.connect('mongodb://zitim:999TIMTI@ds115738.mlab.com:15738/messageboard', (err,db) => {
     var collection = db.collection('test2');
 
     console.log(req.body.id);
