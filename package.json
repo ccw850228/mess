@@ -1,19 +1,33 @@
 {
-  "name": "gonsakon",
-  "version": "1.0.0",
-  "description": "express get and post router sample",
+  "name": "node-js-getting-started",
+  "version": "0.2.5",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
-  "author": "gonsakon",
-  "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.14.0",
-    "ejs": "^2.3.4",
-    "express": "^4.13.3",
-    "express-partials": "^0.3.0",
-    "serve-favicon": "^2.3.0",
-    "serve-static": "^1.10.0"
-  }
+    "mongodb": "2.0.14",
+    "ejs": "2.4.1",
+    "express": "4.13.3",
+    "body-parser": "1.14.0",
+    "ejs": "2.3.4",
+    "express": "4.13.3",
+    "express-partials": "0.3.0",
+    "serve-favicon": "2.3.0",
+    "serve-static": "1.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccw850228/mess.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
